@@ -1,100 +1,51 @@
-/* Resetowanie styli domyślnych */
-body, h1, h2, h3, p, ul, li, a {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-/* Podstawowe style dla całej strony */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Personal Data Journey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-/* Nagłówek */
-header {
-  background-color: #f1f1f1;
-  padding: 20px;
-}
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-nav ul {
-  list-style: none;
-}
+  <main>
+    <section id="hero">
+      <h1>Your Personal Data Journey</h1>
+      <p>Welcome to my blog where we explore the fascinating world of data analytics, big data, and Apache Spark. Join me on this data-driven adventure and unlock the power of data.</p>
+      <a href="/blog" class="cta">Read the Latest</a>
+    </section>
 
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a data enthusiast with a passion for uncovering insights from complex datasets. With years of experience in data analysis, forecasting, and budgeting, I aim to share my knowledge and help others on their data journey.</p>
+      <a href="/about" class="cta">Learn More</a>
+    </section>
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
+    <section id="featured-article">
+      <h2>Featured Article</h2>
+      <article>
+        <h3>Overcoming The Dip: A Guide to Apache Spark and Data Warehousing</h3>
+        <p>Discover how Apache Spark and data warehousing can transform your data analytics capabilities. Learn about Spark's powerful features, data lakehouse architecture, and practical tips for leveraging Spark in your projects.</p>
+        <a href="/blog/overcoming-the-dip" class="cta">Read More</a>
+      </article>
+    </section>
+  </main>
 
-/* Główna sekcja */
-main {
-  padding: 20px;
-}
+  <footer>
+    <p>&copy; 2023 Your Personal Data Journey. All rights reserved.</p>
+  </footer>
+</body>
 
-h1, h2, h3 {
-  color: #333;
-}
-
-p {
-  margin-bottom: 10px;
-  color: #777;
-}
-
-.cta {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3399cc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* Stopka */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Media queries dla responsywności */
-@media screen and (max-width: 768px) {
-  header {
-    padding: 10px;
-  }
-
-  main {
-    padding: 10px;
-  }
-}
-
-/* Dodatkowe style */
-body {
-  background-color: #f7f7f7;
-}
-
-main {
-  background-color: #fff;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.cta {
-  background-color: #1c8adb;
-}
-
-@media screen and (min-width: 1200px) {
-  main {
-    width: 1200px;
-  }
-}
+</html>
