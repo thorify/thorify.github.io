@@ -42,12 +42,13 @@ h1, h2, h3 {
 
 p {
   margin-bottom: 10px;
+  color: #777;
 }
 
 .cta {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #3399cc;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -69,5 +70,31 @@ footer {
 
   main {
     padding: 10px;
+  }
+}
+
+/* Dodatkowe style */
+body {
+  background-color: #f7f7f7;
+}
+
+main {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #1c8adb;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    width: 1200px;
   }
 }
