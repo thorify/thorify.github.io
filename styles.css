@@ -1,0 +1,73 @@
+/* Resetowanie styli domyślnych */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Podstawowe style dla całej strony */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Nagłówek */
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Główna sekcja */
+main {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Stopka */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media queries dla responsywności */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
